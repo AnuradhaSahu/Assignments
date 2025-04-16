@@ -18,25 +18,26 @@ public class Assignment_4 {
 		
 		//1.Create Lists with area of top 5 largest cities. Print the total area of the 3rd and 4th cities combined.
 
-//		List<Integer> areaofTop5LargestCities =new LinkedList<Interger>();
-//
-//		areaofTop5LargestCities.add(289);
-//		areaofTop5LargestCities.add(1200);
-//		areaofTop5LargestCities.add(1400);
-//		areaofTop5LargestCities.add(2300);
-//		areaofTop5LargestCities.add(789);
-//		
-//        int TotalAreaof3rdand4thcity=(areaofTop5LargestCities.get(2)+areaofTop5LargestCities.get(3));
-//		System.out.println("total area of the 3rd and 4th cities combined  : "+TotalAreaof3rdand4thcity);
-//		System.out.println("************************************************");		
+		List<Integer> areaofTop5LargestCities =new ArrayList<Integer>();
+
+		areaofTop5LargestCities.add(289);
+		areaofTop5LargestCities.add(1200);
+		areaofTop5LargestCities.add(1400);
+		areaofTop5LargestCities.add(2300);
+		areaofTop5LargestCities.add(789);
+		
+		
+        int TotalAreaof3rdand4thcity=(areaofTop5LargestCities.get(2)+areaofTop5LargestCities.get(3));
+		System.out.println("total area of the 3rd and 4th cities combined  : "+TotalAreaof3rdand4thcity);
+		System.out.println("************************************************");		
 		
 		String[] cities= {"Tokyo","Amsterdam","Delhi","Mumbai","Paris"};
 		
 		int[] areainsquaremeters= {798,2344,3455,665,2334};
 		
-		int TotalAreaof3rdand4thcity =areainsquaremeters[2]+areainsquaremeters[3];
+		int TotalAreaof3rdand4thcity1 =areainsquaremeters[2]+areainsquaremeters[3];
 		
-        System.out.println("Total area of the 3rd and 4th cities combined  : "+TotalAreaof3rdand4thcity);
+        System.out.println("Total area of the 3rd and 4th cities combined  : "+TotalAreaof3rdand4thcity1);
 		
 		System.out.println("************************************************");		
 		
