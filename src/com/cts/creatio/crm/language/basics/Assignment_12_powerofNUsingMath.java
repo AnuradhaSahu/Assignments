@@ -1,6 +1,6 @@
 package com.cts.creatio.crm.language.basics;
 
-public class Assignment_12_powerofN {
+public class Assignment_12_powerofNUsingMath {
 	
 	/**
 	 * @author anugi
